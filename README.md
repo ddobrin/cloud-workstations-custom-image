@@ -1,7 +1,7 @@
 # Cloud Workstations Customer Image
 Document how to prepare a custom image for Cloud Workstations - Start with JIT and Native Java
 
-## Build a costum Docker image with Java 17 and Oracle GraalVM 17.0.7+8.1 (latest LTS)
+## Build a costum Docker image with Java 17 and Oracle GraalVM 17.0.8+9.1 (latest LTS)
 ```shell
 docker build . -t <ArtifactRegistry-regional>/<Your-Project-ID>/workstations/custom-native:1.0.0
 
